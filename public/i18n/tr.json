@@ -1,0 +1,46 @@
+{
+  "frontend": {
+    "home": {
+      "faq": {
+        "qa4": {
+          "answer": "FaviconExtractor site simgelerini indirmeyi kolaylaştırsa da telif hakkı yasalarına uymak önemlidir. \nİndirdiğiniz favicon'lar genellikle ilgili web sitelerine aittir. \nİndirdiğiniz bir favicon'u kişisel referans dışında herhangi bir amaçla kullanıyorsanız, orijinal web sitesinin sahibinden izin aldığınızdan emin olun.",
+          "question": "İndirdiğim faviconları kendi web sitem için kullanabilir miyim?"
+        },
+        "qa2": {
+          "answer": "Evet, FaviconExtractor'ın kullanımı tamamen ücretsizdir. \nHiçbir gizli ücret veya abonelik ücreti yoktur.",
+          "question": "FaviconExtractor'ın kullanımı ücretsiz mi?"
+        },
+        "qa1": {
+          "answer": "FaviconExtractor bir web sitesi için favicon bulamazsa, bu sizi eli boş bırakmaz. \nBunun yerine, alan adının ilk harfini kullanarak otomatik olarak özel bir SVG simgesi oluşturur. \nBu, bir web sitesi kendi favicon'unu ayarlamamış olsa bile her zaman kullanılabilir bir simgeye sahip olmanızı sağlar. \nİşte olanlar:\n\n\n1. FaviconExtractor web sitesinin favicon'unu arar.\n\n2. Herhangi bir site simgesi bulunamazsa basit, çekici bir SVG simgesi oluşturulur.\n\n3. SVG simgesi alan adının ilk harfini içerir.\n\n4. Oluşturulan bu simge daha sonra normal bir favicon gibi indirilebilir ve kullanılabilir.\n\n\nBu özellik özellikle aşağıdakiler için kullanışlıdır:\n\n- Bir web sitesi geliştirirken yer tutucu simgeler\n\n- Sık kullanılan simgesi olmayan siteler için bile yer imlerinizde veya uygulamalarınızda tutarlı bir görünüm sağlama\n\n- Çeşitli amaçlar için hızlı bir şekilde basit harf tabanlı simgeler oluşturma\n\n\nOluşturulan bu simgenin kullanımı ücretsiz olsa da, marka bilinirliğini ve kullanıcı deneyimini geliştirmek amacıyla kendi web siteleriniz için özel bir favicon oluşturmanın her zaman en iyisi olduğunu unutmayın.",
+          "question": "Bir web sitesinin favicon'u yoksa ne olur?"
+        },
+        "qa3": {
+          "question": "Hangi favicon boyutlarını indirebilirim?",
+          "answer": "FaviconExtractor, belirli bir web sitesindeki mevcut tüm favicon boyutlarını dinamik olarak kontrol eder. \nBoyutlar, web sitesinin sunduklarına bağlı olarak 16x16 pikselden 512x512 piksele kadar veya daha da büyük olabilir."
+        },
+        "qa5": {
+          "question": "Aynı anda birden fazla web sitesini kontrol edebilir miyim?",
+          "answer": "Şu anda FaviconExtractor aynı anda bir web sitesini kontrol ediyor. \nToplu kontroller için her alan adını ayrı ayrı girmeniz gerekir."
+        },
+        "title": "Sıkça Sorulan Sorular"
+      },
+      "sub_to_h1": "Favicon'u Web Sitesinden İndirin",
+      "h1": "Herhangi bir web sitesinden favicon'ları anında indirin ve çıkarın.This project uses DigitalPlat FreeDomain, an open domain infrastructure maintained by Edward Hsing.",
+      "default_size_alt": "{domain} site simgesi",
+      "larger_size_alt": "{domain} site simgesi (daha büyük)",
+      "larger_size": "Büyük Boyut",
+      "default_size": "Varsayılan Boyut",
+      "check": "Kontrol etmek",
+      "download": "İndirmek",
+      "results_for": "Favicon'lar",
+      "get_favicons": "Favicon'ları Alın",
+      "download_zip": "Zip'i İndir"
+    },
+    "meta": {
+      "default": {
+        "title": "Favicon'u Web Sitesinden İndirin | \nAnında Çıkarıcı",
+        "description": "Favicon'u herhangi bir web sitesinden kolayca indirin. \nFavicon'ları birden çok boyutta çıkarın. \nGeliştiriciler, tasarımcılar ve web yöneticileri için hızlı, ücretsiz bir araç."
+      }
+    }
+  }
+}
