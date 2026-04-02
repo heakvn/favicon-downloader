@@ -19,7 +19,7 @@ jobs:
 
       - name: Docker Build
         run: |
-          echo "${{ secrets.DOCKER_LOGIN }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+          echo ${{ secrets.DOCKER_LOGIN }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
           docker buildx create --use
           docker buildx inspect --bootstrap
           VERSION=$(node -p "require('./package.json').version")
