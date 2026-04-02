@@ -33,6 +33,7 @@ export function Header() {
     <NavBar />
     <div className="flex items-center justify-end gap-2 md:ml-auto text-primary">
       <a href="https://www.buymeacoffee.com/jiakun" target="_blank" title="Buy Me A Coffee"><img className="rounded-full" width={25} height={25} src="https://www.faviconextractor.com/favicon/buymeacoffee.com?larger=true" alt="Buy Me A Coffee" /> </a>
+      <a href="https://digitalplat.org" target="_blank" title="DigitalPlat FreeDomain"><img className="rounded-full" width={25} height={25} src="https://www.faviconextractor.com/favicon/digitalplat.org?larger=true" alt="DigitalPlat FreeDomain" /> </a>
       <LocaleSwitch />
       <ModeToggle /> 
       <a href="https://github.com/jiakun93/favicon-downloader" className="flex flex-shrink-0">
