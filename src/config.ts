@@ -1,12 +1,12 @@
 
 const locales = ['en', 'es', 'de_DE', 'fr', 'it', 'nl', 'pl', 'pt', 'sv', 'tr', 'ru', 'zh', 'ja', "ko"] as const;
-const defaultLocale = "zh" as const;
+const defaultLocale = "en" as const;
 
 export type LocaleType = typeof locales[number];
 
 export const appConfig = {
-  appDomain: process.env.NODE_ENV === 'development' ? "127.0.0.1:3000" : "getfavicon.jiakun.us.kg",
-  appRootDomain: "getfavicon.jiakun.us.kg",
+  appDomain: process.env.NODE_ENV === 'development' ? "127.0.0.1:3000" : "favicon.qvv.qzz.io",
+  appRootDomain: "favicon.qvv.qzz.io",
   appName: "Favicon Extractor",
   appDescription: "FaviconExtractor",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "G-H5ZKZ7KTHT",
